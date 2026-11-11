@@ -4,7 +4,7 @@ export interface Product {
     title: string;
     price: number;
     image: string;
-    category: string;
+    category?: string;
 }
 
 export interface CartItem extends Product {

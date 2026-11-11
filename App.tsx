@@ -51,8 +51,8 @@ export function App(): JSX.Element {
     };
 
     return (
-        <div className="container">
-            <h1>McDonald's Menu</h1>
+        <div className="container min-h-screen bg-slate-900 text-white p-8">
+            <h1 className="text-3xl font-extrabold text-yellow-400 mb-6">McDonald's Menu</h1>
             <div className="main-content">
                 <MenuList products={products} onAddToCart={handleAddToCart} />
                 <Cart
@@ -65,8 +65,3 @@ export function App(): JSX.Element {
         </div>
     );
 }
-<div className="min-h-screen bg-slate-900 text-white p-8">
-  <h1 className="text-3xl font-extrabold text-yellow-400">
-    McDonald's Tailwind Junior Edition
-  </h1>
-</div>
